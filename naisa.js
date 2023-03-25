@@ -1,3 +1,11 @@
+/*
+    RECODE By Dryan-MD
+    Pengembangan GuaAbuzz
+    Base By Hisoka
+    
+    Udah No Enc Gak Subscribe Gw Wah Parah
+    semoga Error scnya
+*/
 require('./settings')
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 const fs = require('fs')
