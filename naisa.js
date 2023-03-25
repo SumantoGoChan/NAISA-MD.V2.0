@@ -119,7 +119,7 @@ module.exports = naisa = async (naisa, m, chatUpdate, store) => {
         if(time2 < "03:00:00"){
         var ucapanWaktu = 'Selamat Tengah Malam 🌃'
 }
-        const HBD = new Date('Maret 24, 2023 06:00:00').getTime();
+        const HBD = new Date('Maret 24, 2024 06:00:00').getTime();
         const sekarang = new Date().getTime();
         const Selisih = HBD - sekarang;
         const jhari = Math.floor(Selisih / (1000 * 60 * 60 * 24));
@@ -2323,17 +2323,25 @@ break
             }
             break
             //Masih Langka Bang:)
-            case 'setpp':
-            case 'setppbot': {
-                var _0x1f62b4=_0x1881;function _0x1881(_0xecb92f,_0x59f3cc){var _0x4a1c92=_0x4a1c();return _0x1881=function(_0x1881ed,_0x5c48c4){_0x1881ed=_0x1881ed-0x1c3;var _0x38acc5=_0x4a1c92[_0x1881ed];return _0x38acc5;},_0x1881(_0xecb92f,_0x59f3cc);}function _0x4a1c(){var _0x559a25=['downloadAndSaveMediaMessage','6143643XJjgQH','1235178HRCQTs','Kirim/Reply\x20Image\x20Dengan\x20Caption\x20','image','set','874260SCWdwr','reply','21732WyLXvf','812LojjhI','588448WfSvPe','unlinkSync','8LlSagO','owner','test','ppbot.jpeg','11570tiNapk','picture','1268NdTncA','12935978kdXtYg','query','success','20cnDMwg'];_0x4a1c=function(){return _0x559a25;};return _0x4a1c();}(function(_0xa2bdbb,_0x5d926b){var _0xd5ff08=_0x1881,_0x590835=_0xa2bdbb();while(!![]){try{var _0x15a9a5=parseInt(_0xd5ff08(0x1c5))/0x1+-parseInt(_0xd5ff08(0x1c9))/0x2+parseInt(_0xd5ff08(0x1d8))/0x3+parseInt(_0xd5ff08(0x1d1))/0x4*(parseInt(_0xd5ff08(0x1cf))/0x5)+-parseInt(_0xd5ff08(0x1c7))/0x6*(-parseInt(_0xd5ff08(0x1c8))/0x7)+parseInt(_0xd5ff08(0x1cb))/0x8*(parseInt(_0xd5ff08(0x1d7))/0x9)+parseInt(_0xd5ff08(0x1d5))/0xa*(-parseInt(_0xd5ff08(0x1d2))/0xb);if(_0x15a9a5===_0x5d926b)break;else _0x590835['push'](_0x590835['shift']());}catch(_0x6ef9e5){_0x590835['push'](_0x590835['shift']());}}}(_0x4a1c,0x743b3));if(!isCreator)throw mess[_0x1f62b4(0x1cc)];if(!quoted)throw _0x1f62b4(0x1d9)+(prefix+command);if(!/image/['test'](mime))throw _0x1f62b4(0x1d9)+(prefix+command);if(/webp/[_0x1f62b4(0x1cd)](mime))throw _0x1f62b4(0x1d9)+(prefix+command);var media=await naisa[_0x1f62b4(0x1d6)](quoted,_0x1f62b4(0x1ce));if(args[0x0]=='full'){var {img}=await generateProfilePicture(media);await naisa[_0x1f62b4(0x1d3)]({'tag':'iq','attrs':{'to':botNumber,'type':_0x1f62b4(0x1c4),'xmlns':'w:profile:picture'},'content':[{'tag':_0x1f62b4(0x1d0),'attrs':{'type':_0x1f62b4(0x1c3)},'content':img}]}),fs[_0x1f62b4(0x1ca)](media),m[_0x1f62b4(0x1c6)](mess['success']);}else{var data=await naisa['updateProfilePicture'](botNumber,{'url':media});fs['unlinkSync'](media),m[_0x1f62b4(0x1c6)](mess[_0x1f62b4(0x1d4)]);}
-            }
-            break
-            //Masih Langka Bang:)
-            case 'setppgroup':
-            case 'setppgrup':
-            case 'setppgc': {
-                var _0x5c8b71=_0x5233;(function(_0x2a8afc,_0xe1257b){var _0x1615dc=_0x5233,_0x47fd49=_0x2a8afc();while(!![]){try{var _0x4dbb94=-parseInt(_0x1615dc(0xe0))/0x1+parseInt(_0x1615dc(0xeb))/0x2+-parseInt(_0x1615dc(0xea))/0x3*(parseInt(_0x1615dc(0xe9))/0x4)+-parseInt(_0x1615dc(0xf1))/0x5+parseInt(_0x1615dc(0xed))/0x6+parseInt(_0x1615dc(0xf3))/0x7+parseInt(_0x1615dc(0xe5))/0x8;if(_0x4dbb94===_0xe1257b)break;else _0x47fd49['push'](_0x47fd49['shift']());}catch(_0xde229c){_0x47fd49['push'](_0x47fd49['shift']());}}}(_0x4d87,0xd68f8));if(!m[_0x5c8b71(0xec)])throw mess[_0x5c8b71(0xee)];if(!isAdmins)throw mess[_0x5c8b71(0xe1)];if(!quoted)throw'Kirim/Reply\x20Image\x20Dengan\x20Caption\x20'+(prefix+command);if(!/image/[_0x5c8b71(0xf2)](mime))throw _0x5c8b71(0xef)+(prefix+command);function _0x4d87(){var _0x52b700=['test','6711698NUujxC','success','w:profile:picture','1489612AANcBS','admin','image','full','ppgc.jpeg','24414096UQLFdY','picture','set','unlinkSync','56796YAluHJ','369btnrkB','414548HxCLnD','isGroup','3502626QvQSwS','group','Kirim/Reply\x20Image\x20Dengan\x20Caption\x20','chat','3433460slhGZl'];_0x4d87=function(){return _0x52b700;};return _0x4d87();}if(/webp/['test'](mime))throw _0x5c8b71(0xef)+(prefix+command);function _0x5233(_0x2dc643,_0x59ab96){var _0x4d877c=_0x4d87();return _0x5233=function(_0x523385,_0x53dece){_0x523385=_0x523385-0xdf;var _0x14f950=_0x4d877c[_0x523385];return _0x14f950;},_0x5233(_0x2dc643,_0x59ab96);}var media=await naisa['downloadAndSaveMediaMessage'](quoted,_0x5c8b71(0xe4));if(args[0x0]==_0x5c8b71(0xe3)){var {img}=await generateProfilePicture(media);await naisa['query']({'tag':'iq','attrs':{'to':m[_0x5c8b71(0xf0)],'type':_0x5c8b71(0xe7),'xmlns':_0x5c8b71(0xdf)},'content':[{'tag':_0x5c8b71(0xe6),'attrs':{'type':_0x5c8b71(0xe2)},'content':img}]}),fs[_0x5c8b71(0xe8)](media),m['reply'](mess[_0x5c8b71(0xf4)]);}else{var memeg=await naisa['updateProfilePicture'](m[_0x5c8b71(0xf0)],{'url':media});fs[_0x5c8b71(0xe8)](media),m['reply'](mess['success']);}
-            }
+           case 'setppbot': {
+                if (!isCreator) throw mess.owner
+                if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+                if (/webp/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+                let media = await naisa.downloadAndSaveMediaMessage(qmsg)
+                await naisa.updateProfilePicture(botNumber, { url: media }).catch((err) => fs.unlinkSync(media))
+                m.reply(mess.success)
+                }
+                break
+           case 'setppgroup': case 'setppgrup': case 'setppgc': {
+                if (!m.isGroup) throw mess.group
+                if (!isAdmins) throw mess.admin
+                if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+                if (/webp/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+                let media = await naisa.downloadAndSaveMediaMessage(qmsg)
+                await naisa.updateProfilePicture(m.chat, { url: media }).catch((err) => fs.unlinkSync(media))
+                m.reply(mess.success)
+                }
+                break
             break
             case 'tagall': {
                 if (!m.isGroup) throw mess.group
@@ -7912,15 +7920,18 @@ console.log(song)
 await naisa.sendMessage(from, { audio: song, mimetype: 'audio/mp3' }, { quoted: m })
 }
 break
-case 'ai':
-case 'talk':{
-if (!q) return setReply('Mau Tanya Apa')
-fetchJson(`http://tools-amfcode.com/api/ai/bot.php?text=${q}`)
-.then(ai_res => {
-reply(`AI TALK ${ai_res.text}`)
-}).catch((err) => {
-reply('Terjadi Kesalahan!!')
-})
+case 'openai':
+case 'ai': 
+case 'yus': {
+if (args.length < 1) return reply(`Masukkan kata kunci!\n\n*Contoh:*  apa saja jenis hacker`)
+	axios.get(encodeURI(`https://api.lolhuman.xyz/api/openai?apikey=${lolhuman}&text=${q}&user=user-unique-id`)).then(({
+			data
+	    }) => {
+			if (data.result == '') return reply('Kata kunci tidak ditemukan!')
+			reply(data.result)
+		}).catch((err) => {
+				return reply('Terjadi kesalahan, mungkin sistem sedang error atau coba kirim ulang perintah anda!')
+    })
 }
 break
             default:
@@ -7930,7 +7941,7 @@ break
         	        { buttonId: 'rules', buttonText: { displayText: '❗Rules' }, type: 1 },
                     { buttonId: 'owner', buttonText: { displayText: '➡️Chat Owner' }, type: 1 }
                 ]
-			naisa.sendMessage(m.chat, { text:`INVITE DETECT\n\nMau masukin bot ini ke group kamu?`, title: 'LINK GROUP DECTETED', footer: '© 2022 LuckyCat', buttons: buttons, headerType: 5 })
+			naisa.sendMessage(m.chat, { text:`INVITE DETECT\n\nMau masukin bot ini ke group kamu?`, title: 'LINK GROUP DECTETED', footer: '© 2023 Dryan-MD', buttons: buttons, headerType: 5 })
 		}
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return m.reply(mess.owner)
@@ -7987,7 +7998,7 @@ break
                     }
                     return !0
                 }
-
+                
                 if (isCmd && budy.toLowerCase() != undefined) {
                     if (m.chat.endsWith('broadcast')) return
                     if (m.isBaileys) return
